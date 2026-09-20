@@ -1,0 +1,30 @@
+{
+    "name": "microavr",
+    "version": "1.0.0",
+    "description": "Lightweight zero-cost abstraction library for ATmega328P AVR microcontrollers",
+    "keywords": "avr, atmega328p, gpio, adc, pwm, uart, spi, i2c, timer, microcontroller, embedded",
+    "authors": [
+        {
+            "name": "Javier Fagon",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/JavEngineering/MicroAVR.git"
+    },
+    "frameworks": [],
+    "platforms": "atmelavr",
+    "headers": "microavr/microavr.h",
+    "export": {
+        "include": [
+            "include/*",
+            "docs/*",
+            "examples/*",
+            "LICENSE",
+            "README.md",
+            "INTEGRATION.md"
+        ]
+    }
+}
